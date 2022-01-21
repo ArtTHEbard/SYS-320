@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week01/class/syslogFTPConnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week01/homework/console.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week01/homework/syslogCheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week01/homework/syslogFTPConnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week01/homework/syslogKlogind.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week01/homework/syslogSSH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week01/homework/syslogSSHSuccess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week01/homework/syslogSU.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week01/class/console.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/class/console.ipynb" afterDir="false" />
     </list>
@@ -36,10 +42,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week01/class" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week01/homework" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\class" />
     </key>
   </component>
@@ -52,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642797947783</updated>
       <workItem from="1642797948893" duration="4000" />
-      <workItem from="1642802115380" duration="1324000" />
+      <workItem from="1642802115380" duration="2675000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -75,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642802784197</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Week 1 Classwork">
+      <created>1642803541950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642803541950</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Week 1 Classwork">
+      <created>1642804021054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642804021054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
