@@ -1,6 +1,6 @@
 # Create an interface to search through syslog files.
 import re
-
+import sys
 
 def _syslog(filename, listofKeywords):
     # Open a file
@@ -17,7 +17,7 @@ def _syslog(filename, listofKeywords):
         # Loops through the keywords.
         for eachKeyword in listofKeywords:
 
-            # If the 'line' contains the keyword then it will print
+            # If the 'line' contains the keyword then it will print.
             # Searches and returns results using a regular expression search.
             x = re.findall(r''+eachKeyword+'', line)
 
@@ -25,4 +25,13 @@ def _syslog(filename, listofKeywords):
                 # Append results to result list.
                 results.append(found)
 
+    # Check to see if results exists.
+    if len(results) == 0:
+        print("No Results")
+        sys.exit()
+    # Sort List.
+    results = sorted(results)
+
+
     return results
+
