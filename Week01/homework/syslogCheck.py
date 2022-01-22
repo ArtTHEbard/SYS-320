@@ -1,4 +1,8 @@
+# Code by Sam Johnson
 # Create an interface to search through syslog files.
+# This is done by opening the file, storing the contents in a variable,
+# and looping through the elements within that variable, sorting them based upon inputted keywords.
+# Finally, the resutls are formatted into a sorted list and returned.
 import re
 import sys
 

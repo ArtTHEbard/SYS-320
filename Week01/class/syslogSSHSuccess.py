@@ -1,10 +1,14 @@
+# Code by Sam Johnson
+# This code utilized the syslogCheck function to sort for users who succesfully
+# authenticated with SSH. This is done by selecting a defined split target, and appending the
+# split information to a formatted list, which is turned into a set before it is returned.
 import syslogCheck
 import importlib
 
 importlib.reload(syslogCheck)
 
 
-# SSH authentication failures
+# SSH authentication successes
 
 def ssh_success(filename, searchterms):
     # Call Syslog Check
