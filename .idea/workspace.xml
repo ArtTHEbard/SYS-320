@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="Week 1 Classwork">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/class/syslogCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/class/syslogCheck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/class/syslogFTPConnect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/class/syslogFTPConnect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/class/syslogSSH.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/class/syslogSSH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/class/syslogSSHSuccess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/class/syslogSSHSuccess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/class/syslogSU.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/class/syslogSU.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/homework/syslogCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/homework/syslogCheck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/homework/syslogFTPConnect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/homework/syslogFTPConnect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/homework/syslogKlogind.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/homework/syslogKlogind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/homework/syslogSSH.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/homework/syslogSSH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/homework/syslogSSHSuccess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/homework/syslogSSHSuccess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01/homework/syslogSU.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/homework/syslogSU.py" afterDir="false" />
+    <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Week01/homework/console.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/homework/console.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642797947783</updated>
       <workItem from="1642797948893" duration="4000" />
-      <workItem from="1642802115380" duration="4992000" />
+      <workItem from="1642802115380" duration="5371000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -120,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642805860681</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Week 1 Classwork">
+      <created>1642811865036</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642811865036</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Week 1 Classwork">
+      <created>1642811986220</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642811986220</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
