@@ -21,7 +21,7 @@ def _logs(filename, service, term):
     # Queury the yaml file for term or direction and
     # retrive the strings to search on.
 
-    terms= keywords[service][term]
+    terms = keywords[service][term]
 
     listofKeywords = terms.split(",")
 

@@ -26,8 +26,8 @@ def apache_event(filename, service, term):
 
     # Remove duplicates
     # and convert the list to a set.
-    hosts = set(found)
+    getValues = set(found)
 
-    for eachHost in hosts:
+    for eachValue in getValues:
 
-        print(eachHost)
+        print(eachValue)
