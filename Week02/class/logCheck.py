@@ -16,7 +16,15 @@ except EnvironmentError as e:
     print(e.strerror)
 
 
-def _logs(filename, listofKeywords):
+def _logs(filename, service, term):
+
+    # Queury the yaml file for term or direction and
+    # retrive the strings to search on.
+
+    terms= keywords[service][term]
+
+    listofKeywords = terms.split(",")
+
     # Open a file
     with open(filename) as f:
         # Read contents of file into variable
