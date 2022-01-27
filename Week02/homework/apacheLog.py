@@ -22,7 +22,7 @@ def apache_remote(filename, service, term):
         sp_results = eachFound.split(" ")
 
         # Append split to found
-        found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[4] + " " + sp_results[7])
+        found.append(sp_results[0] + "   " + sp_results[2] + "   " + sp_results[4] + "   " + sp_results[7])
 
     # Remove duplicates
     # and convert the list to a set.
@@ -45,7 +45,7 @@ def apache_proxy(filename, service, term):
         sp_results = eachFound.split(" ")
 
         # Append split to found
-        found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[6])
+        found.append(sp_results[0] + "   " + sp_results[2] + "   " + sp_results[6])
 
     # Remove duplicates
     # and convert the list to a set.
