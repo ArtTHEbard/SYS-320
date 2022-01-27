@@ -22,7 +22,7 @@ def apache_event(filename, service, term):
         sp_results = eachFound.split(" ")
 
         # Append split to found
-        found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[4] + " Bytes Sent " + sp_results[7] + " Bytes Recieved.")
+        found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[4] + " " + sp_results[7])
 
     # Remove duplicates
     # and convert the list to a set.
