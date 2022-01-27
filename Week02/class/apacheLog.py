@@ -2,17 +2,16 @@
 # This code utilized the syslogCheck function to sort for domains that failed to authenticate with SSH.
 # This is done by selecting a defined split target, and appending the
 # split information to a formatted list, which is turned into a set before it is returned.
-import syslogCheck
+import logCheck
 import importlib
-
-importlib.reload(syslogCheck)
+importlib.reload(logCheck)
 
 
 # SSH authentication failures
 
-def ssh_fail(filename, searchterms):
-    # Call Syslog Check
-    is_found = syslogCheck._syslog(filename, searchterms)
+def apache_event(filename, service, term):
+    # Call log Check
+    is_found = logCheck._logs(filename, service, term)
 
     # Found list
     found = []
@@ -23,7 +22,7 @@ def ssh_fail(filename, searchterms):
         sp_results = eachFound.split(" ")
 
         # Append split to found
-        found.append(sp_results[8])
+        found.append(sp_results[0] + " " + sp_results[1] + " " + sp_results[3])
 
     # Remove duplicates
     # and convert the list to a set.
