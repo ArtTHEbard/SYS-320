@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Week01/homework/console.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/homework/console.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week02/class/console.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week02/class/logCheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week02/class/searchterms.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week02/class/syslogSSH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Week02/class/logCheck.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,13 +40,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week01/homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week02/class" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\class" />
     </key>
@@ -51,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1642797947783</updated>
       <workItem from="1642797948893" duration="4000" />
-      <workItem from="1642802115380" duration="5371000" />
+      <workItem from="1642802115380" duration="5590000" />
+      <workItem from="1643305882632" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -123,13 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642811986220</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Week 1 Classwork">
+      <created>1642812430042</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642812430042</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Week 1 Classwork" />
     <option name="LAST_COMMIT_MESSAGE" value="Week 1 Classwork" />
   </component>
