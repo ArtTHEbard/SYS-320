@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Week02/class/apacheLog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/class/apacheLog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02/class/console.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/class/console.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week02/homework/Apache_Proxy_Log_Events.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week02/homework/apacheLog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week02/homework/logCheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week02/homework/searchterms.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/Proxifier_2k.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +44,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week02/class" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week02/homework" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\class" />
@@ -59,7 +64,7 @@
       <updated>1642797947783</updated>
       <workItem from="1642797948893" duration="4000" />
       <workItem from="1642802115380" duration="5590000" />
-      <workItem from="1643305882632" duration="2781000" />
+      <workItem from="1643305882632" duration="3847000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -166,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643308442346</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Week 1 Classwork">
+      <created>1643308879466</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1643308879466</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
