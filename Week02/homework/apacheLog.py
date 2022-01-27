@@ -9,7 +9,7 @@ importlib.reload(logCheck)
 
 # SSH authentication failures
 
-def apache_event(filename, service, term):
+def apache_remote(filename, service, term):
     # Call log Check
     is_found = logCheck._logs(filename, service, term)
 
@@ -23,6 +23,29 @@ def apache_event(filename, service, term):
 
         # Append split to found
         found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[4] + " " + sp_results[7])
+
+    # Remove duplicates
+    # and convert the list to a set.
+    getValues = set(found)
+
+    for eachValue in getValues:
+
+        print(eachValue)
+
+def apache_proxy(filename, service, term):
+    # Call log Check
+    is_found = logCheck._logs(filename, service, term)
+
+    # Found list
+    found = []
+
+    # Loop through the results
+    for eachFound in is_found:
+        # Split results
+        sp_results = eachFound.split(" ")
+
+        # Append split to found
+        found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[6])
 
     # Remove duplicates
     # and convert the list to a set.

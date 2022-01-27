@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Week02/homework/apacheLog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/homework/apacheLog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02/homework/Apache_Proxy_Log_Events.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/homework/Apache_Proxy_Log_Events.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <updated>1642797947783</updated>
       <workItem from="1642797948893" duration="4000" />
       <workItem from="1642802115380" duration="5590000" />
-      <workItem from="1643305882632" duration="4466000" />
+      <workItem from="1643305882632" duration="5175000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643310052434</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Week 1 Classwork">
+      <created>1643310393336</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1643310393336</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

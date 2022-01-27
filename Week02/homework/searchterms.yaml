@@ -1,3 +1,4 @@
 ---
 proxy:
-  qq: "QQ.*.exe.*"
+  remote: "QQ.*.exe.*bytes sent.*bytes received.*"
+  proxy: "QQ.*.exe.*open through proxy.*"
