@@ -4,7 +4,6 @@
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week03/homework/console.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/homework/console.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week03/homework/urlHaus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/homework/urlHaus.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,8 @@
       <workItem from="1642797948893" duration="4000" />
       <workItem from="1642802115380" duration="5590000" />
       <workItem from="1643305882632" duration="7478000" />
-      <workItem from="1643818596590" duration="5351000" />
+      <workItem from="1643818596590" duration="5365000" />
+      <workItem from="1643905838322" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643818797043</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Week 1 Classwork">
+      <created>1643823984957</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1643823984957</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
