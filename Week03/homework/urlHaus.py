@@ -30,7 +30,6 @@ def urlHausOpen(filename, searchTerm):
         # Fix: Required proper indentation. Needed to remove an 's' from
         # searchTerm to match earlier use of the variable.
         for keyword in searchTerm:
-            print(keyword)
             # Func: Reads through each line in the contents variable.
             # Fix: Required proper indentation.
             for eachLine in contents:
