@@ -25,14 +25,13 @@ def urlHausOpen(filename, searchTerm):
             # different elements in the parsed content.
             # Fix: Required proper indentation.
             next(contents)
-
-        # Func: Starts a new loop with the content processes earlier in the code. Uses the inputted searchTerm variable.
-        # Fix: Required proper indentation. Needed to remove an 's' from
-        # searchTerm to match earlier use of the variable.
-        for keyword in searchTerm:
-            # Func: Reads through each line in the contents variable.
-            # Fix: Required proper indentation.
-            for eachLine in contents:
+        # Func: Reads through each line in the contents variable.
+        # Fix: Required proper indentation. Needed to switch with the keyword for loop.
+        for eachLine in contents:
+            # Func: Starts a new loop with the content processes earlier in the code. Uses the inputted searchTerm variable.
+            # Fix: Required proper indentation. Needed to remove an 's' from
+            # searchTerm to match earlier use of the variable.
+            for keyword in searchTerm:
                 # Func: If the line contains the keyword then it will store formatted data in the variable 'x'.
                 # Fix: Needed indentation. Required the inclusion of proper re-formatting,
                 # specifically the inclusion of '' after the 'r' and before the comma.
