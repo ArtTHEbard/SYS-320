@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="" />
+    <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Week04/class/fs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +68,9 @@
       <workItem from="1643905838322" duration="1088000" />
       <workItem from="1643910814873" duration="2505000" />
       <workItem from="1643919528726" duration="163000" />
-      <workItem from="1643919782838" duration="1319000" />
+      <workItem from="1643919782838" duration="1588000" />
+      <workItem from="1644198750052" duration="4000" />
+      <workItem from="1644433331542" duration="4188000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -277,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643920511145</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Week 1 Classwork">
+      <created>1643921666543</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1643921666543</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
