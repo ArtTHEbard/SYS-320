@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week04/class/timeline.body" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/.github/workflows/go.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/LICENCE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/timeliner-linux-amd64.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/timeliner-macos-amd64.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/timeliner-windows-amd64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/class/timeliner-master/timeliner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04/class/fs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/class/fs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04/class/timeline.body" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/class/timeline.body" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +50,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week02/homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week04/class" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\class" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week03\homework" />
     </key>
   </component>
@@ -69,7 +82,7 @@
       <workItem from="1643919528726" duration="163000" />
       <workItem from="1643919782838" duration="1588000" />
       <workItem from="1644198750052" duration="4000" />
-      <workItem from="1644433331542" duration="4498000" />
+      <workItem from="1644433331542" duration="5408000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -295,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644438124129</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Week 1 Classwork">
+      <created>1644438404004</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1644438404004</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
