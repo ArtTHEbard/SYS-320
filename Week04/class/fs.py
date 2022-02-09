@@ -1,14 +1,20 @@
 # File to traverse a given directory and retrieve files.
 
 import os
-import sys
+import argparse
 import stat
 
-# Get info from the cmd
-# print(sys.argv)
+parser = argparse.ArgumentParser(
 
-# Directory to traverse
-rootdir = sys.argv[1]
+    description="Traverses a directory and builds a forensic body file"
+)
+# Add Argument
+parser.add_argument("-d", "--directory", required=True, help="Directory that you want to traverse.")
+
+# PArse the arguments
+args = parser.parse_args()
+
+rootdir = args.directory
 
 # print(rootdir)
 
