@@ -8,16 +8,15 @@ import re
 import sys
 import yaml
 
+
 # Open the YAML file
-try:
-    with open('searchbooks.yaml', 'r') as yf:
-        keywords = yaml.safe_load(yf)
-except EnvironmentError as e:
-    print(e.strerror)
 
-
-def _logs(filename, service, term):
-
+def _logs(filename):
+    try:
+        with open('searchbooks.yaml', 'r') as yf:
+            keywords = yaml.safe_load(yf)
+    except EnvironmentError as e:
+        print(e.strerror)
     # Queury the yaml file for term or direction and
     # retrive the strings to search on.
 

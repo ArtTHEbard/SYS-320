@@ -15,7 +15,7 @@ parser.add_argument("-s", "--searcher", required=False, help="Define a Yaml Book
 args = parser.parse_args()
 
 rootdir = args.directory
-
+searchfile = args.searcher
 # Traverse Directory
 # Check in arg is a directory
 if not os.path.isdir(rootdir):
@@ -32,4 +32,4 @@ for root, subfolders, filenames in os.walk(rootdir):
         flist.append(filelist)
 
 for file in flist:
-    logCheck._logs(file, 'shell_attacks')
+    print(logCheck._logs(file))
