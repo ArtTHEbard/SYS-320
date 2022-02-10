@@ -24,6 +24,7 @@ def logs(filename, bookname):
         for value in type:
             keywordlist.append(value)
     # Open a file
+
     with open(filename) as f:
         # Read contents of file into variable
         contents = f.readlines()

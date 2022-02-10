@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(
 )
 # Add Argument
 parser.add_argument("-d", "--directory", required=True, help="Directory that you want to traverse.")
-parser.add_argument("-s", "--searcher", required=True, help="Define a Yaml Book that contains search terms")
+parser.add_argument("-s", "--searcher", required=False, help="Define a Yaml Book that contains search terms")
 
 # Parse the arguments
 args = parser.parse_args()
@@ -28,7 +28,9 @@ if not os.path.isdir(rootdir):
 flist = []
 
 # Crawl through provided directory
-for directory, subfiles, entries in os.walk(rootdir):
-    for e in entries:
-        print(e)
+for root, subfolders, filenames in os.walk(rootdir):
+    for f in filenames:
+        filelist = root + "\\" + f
+        flist.append(filelist)
 
+print(flist)

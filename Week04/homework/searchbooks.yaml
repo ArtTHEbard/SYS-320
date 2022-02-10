@@ -1,3 +1,4 @@
+---
 shell_attacks:
   winShell: "*/cmd.exe*"
   nixShell: "*/bin/sh*"
@@ -9,7 +10,7 @@ database_attacks:
 ---
 directory_attack:
   passwd: "*/etc/passwd*"
-  back: "'\.\.'"
+  back: "\\.\\."
 ---
 content_attacks:
   joomla: "*joomla*"
