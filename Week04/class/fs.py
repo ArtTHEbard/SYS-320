@@ -42,7 +42,7 @@ def statFile(toStat):
     mode = i[0]
 
     # inode
-    inode = int(i[1])
+    inode = i[1]
 
     # uid
     uid = i[4]

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="" />
+    <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Week04/homework/attacksearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/homework/logCheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week04/homework/searchbooks.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline.body" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04/class/fs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/class/fs.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,15 +44,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week04/class" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week04/homework" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\homework" />
-      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\class" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\class" />
@@ -70,7 +77,8 @@
       <workItem from="1643919782838" duration="1588000" />
       <workItem from="1644198750052" duration="4000" />
       <workItem from="1644433331542" duration="6040000" />
-      <workItem from="1644461085391" duration="4138000" />
+      <workItem from="1644461085391" duration="4150000" />
+      <workItem from="1644514555206" duration="2858000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -338,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644464943298</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Pycharm Commit">
+      <created>1644465266698</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1644465266698</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
