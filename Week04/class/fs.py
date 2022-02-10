@@ -30,7 +30,7 @@ flist = []
 # Crawl through provided directory
 for root, subfolders, filenames in os.walk(rootdir):
     for f in filenames:
-        filelist = root + "\\" + f
+        filelist = root + "/" + f
         flist.append(filelist)
 
 
@@ -42,7 +42,7 @@ def statFile(toStat):
     mode = i[0]
 
     # inode
-    inode = i[1]
+    inode = int(i[1])
 
     # uid
     uid = i[4]
@@ -63,7 +63,7 @@ def statFile(toStat):
     ctime = i[9]
     crtime = i[9]
 
-    print("0|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}".format(toStat, inode, mode, uid, gid, fsize, atime, mtime, ctime, crtime))
+    print("0|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}".format(toStat,inode,mode,uid,gid,fsize,atime,mtime,ctime,crtime))
 
 
 for eachFile in flist:
