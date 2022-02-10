@@ -30,4 +30,5 @@ flist = []
 # Crawl through provided directory
 for directory, subfiles, entries in os.walk(rootdir):
     for e in entries:
+        print(e)
 
