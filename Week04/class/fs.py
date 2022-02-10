@@ -63,7 +63,7 @@ def statFile(toStat):
     ctime = i[9]
     crtime = i[9]
 
-    print("0|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}".format(toStat,inode,mode,uid,gid,fsize,atime,mtime,ctime,crtime))
+    print("0|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}".format(toStat, inode, mode, uid, gid, fsize, atime, mtime, ctime, crtime))
 
 
 for eachFile in flist:
