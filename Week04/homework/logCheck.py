@@ -8,23 +8,28 @@ import re
 import sys
 import yaml
 
+# Open the YAML file
+try:
+    with open('searchbooks.yaml', 'r') as yf:
+        keywords = yaml.safe_load(yf)
+except EnvironmentError as e:
+    print(e.strerror)
 
-def logs(filename, bookname):
-    # Query the yaml file for term or direction and
-    # retrieve the strings to search on.
-    try:
-        with open(bookname, 'r') as yf:
-            keywords = yaml.safe_load(yf)
-    except EnvironmentError as e:
-        print(e.strerror)
 
-    keywordlist = []
+def _logs(filename, service, term):
 
-    for type in keywords:
-        for value in type:
-            keywordlist.append(value)
+    # Queury the yaml file for term or direction and
+    # retrive the strings to search on.
+
+    listofKeywords = []
+    terms = []
+    for entry in keywords:
+        terms.append(keywords[entry])
+        for term in terms:
+            for key, value in term.items():
+                listofKeywords.append(value)
+
     # Open a file
-
     with open(filename) as f:
         # Read contents of file into variable
         contents = f.readlines()
@@ -36,7 +41,7 @@ def logs(filename, bookname):
     for line in contents:
 
         # Loops through the keywords.
-        for eachKeyword in keywordlist:
+        for eachKeyword in listofKeywords:
 
             # If the 'line' contains the keyword then it will print.
             # Searches and returns results using a regular expression search.
