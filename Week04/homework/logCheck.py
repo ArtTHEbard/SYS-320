@@ -39,6 +39,7 @@ def _logs(filename, service):
                 # Searches and returns results using a regular expression search.
                 x = re.findall(r'' + eachKeyword + '', line)
                 for found in x:
+
                     # Append results to result list.
                     results.append(found)
 

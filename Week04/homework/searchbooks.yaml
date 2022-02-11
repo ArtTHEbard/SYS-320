@@ -1,14 +1,14 @@
 shell_attacks:
-  winShell: ".*cmd.exe*."
-  nixShell: ".*/bin/sh*."
-  wbeShell: ".*c99.php*."
+  winShell: ".*cmd.exe.*"
+  nixShell: ".*/bin/sh.*"
+  wbeShell: ".*c99.php.*"
 database_attacks:
-  php: ".*/phpmyadmin*."
-  sql: ".*mysql*."
+  php: ".*/phpmyadmin.*"
+  sql: ".*mysql.*"
 directory_attack:
-  passwd: ".*/etc/passwd*."
-  back: ".\\.\\.."
+  passwd: ".*/etc/passwd.*"
+  back: ".*\\.\\..*"
 content_attacks:
-  joomla: ".*joomla*."
-  word: ".*wordpress*."
-  xml: ".*xmlrpc*."
+  joomla: ".*joomla.*"
+  word: ".*wordpress.*"
+  xml: ".*xmlrpc.*"

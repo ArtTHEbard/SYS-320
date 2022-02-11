@@ -43,11 +43,11 @@ for file in flist:
         # Split results
         sp_results = eachFound.split(" ")
         # Append split to found
-        found.append("IP: " + sp_results[0] + " URL: " + sp_results[6] + " Status Codes: " + sp_results[0] + " Bytes Returned: " + sp_results[0])
+        found.append("IP: " + sp_results[0] + " URL: " + sp_results[6] + " Status Codes: " + sp_results[8] + " Bytes Returned: " + sp_results[9])
 
     # Remove duplicates
     # and convert the list to a set.
     getValues = set(found)
 
-#    for eachValue in getValues:
- #       print(eachValue)
+    for eachValue in getValues:
+        print(eachValue)
