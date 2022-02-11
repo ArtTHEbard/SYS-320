@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/Week04/homework/attacksearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/homework/attacksearch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week04/homework/logCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/homework/logCheck.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week04/homework/searchbooks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/homework/searchbooks.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04/homework/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/homework/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week03\homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.attacksearch">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SYS-320" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,8 +134,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.attacksearch" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.attacksearch" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +161,7 @@
       <workItem from="1644514555206" duration="6809000" />
       <workItem from="1644521680882" duration="1021000" />
       <workItem from="1644522907808" duration="2539000" />
-      <workItem from="1644526241177" duration="788000" />
+      <workItem from="1644526241177" duration="4400000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -456,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644525464312</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Pycharm Commit">
+      <created>1644527039085</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1644527039085</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,8 +477,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="Pycharm Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SYS_320$attacksearch.coverage" NAME="attacksearch Coverage Results" MODIFIED="1644526932197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week04/homework" />
+    <SUITE FILE_PATH="coverage/SYS_320$attacksearch.coverage" NAME="attacksearch Coverage Results" MODIFIED="1644535919819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week04/homework" />
     <SUITE FILE_PATH="coverage/SYS_320$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1644518056705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/SYS_320$test.coverage" NAME="test Coverage Results" MODIFIED="1644526264089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week04/homework" />
+    <SUITE FILE_PATH="coverage/SYS_320$test.coverage" NAME="test Coverage Results" MODIFIED="1644536722634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week04/homework" />
   </component>
 </project>
