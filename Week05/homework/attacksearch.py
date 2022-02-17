@@ -1,6 +1,7 @@
 import os
 import argparse
 import logCheck
+import yaml
 
 parser = argparse.ArgumentParser(
 
@@ -31,23 +32,16 @@ for root, subfolders, filenames in os.walk(rootdir):
         filelist = root + f
         flist.append(filelist)
 
+with open('attacks.yaml', 'r') as yf:
+    keywords = yaml.safe_load(yf)
+
+    # Query the yaml file for term or direction and
+    # retrieve the strings to search on.
+
+    for key in keywords:
+        terms = keywords[key]['detect']
+        listofKeywords = terms.split(",")
+        types = keywords[key]['ref']
+        print("Attack Description: " + types)
 for file in flist:
-    print("Log File: " + file)
-    is_found = logCheck._logs(file, searchfile)
-
-    # Found list
-    found = []
-
-    # Loop through the results
-    for eachFound in is_found:
-        # Split results
-        sp_results = eachFound.split(" ")
-        # Append split to found
-        found.append("IP: " + sp_results[0] + " URL: " + sp_results[6] + " Status Codes: " + sp_results[8] + " Bytes Returned: " + sp_results[9])
-
-    # Remove duplicates
-    # and convert the list to a set.
-    getValues = set(found)
-
-    for eachValue in getValues:
-        print(eachValue)
+    logCheck._logs(file, listofKeywords)

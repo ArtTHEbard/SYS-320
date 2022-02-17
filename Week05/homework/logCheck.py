@@ -7,46 +7,39 @@
 import re
 import sys
 import yaml
+import csv
 
 
 # Open the YAML file
 
-def _logs(filename, service):
-    with open('searchbooks.yaml', 'r') as yf:
-        keywords = yaml.safe_load_all(yf)
+def _logs(filename, listofKeywords):
 
-    # Query the yaml file for term or direction and
-    # retrieve the strings to search on.
-
-        listofKeywords = []
-        for keyVal in keywords:
-            for key, value in keyVal[service].items():
-                listofKeywords.append(value)
-        # Open a file
-        with open(filename) as f:
-            # Read contents of file into variable
-            contents = f.readlines()
-
-        # List to store results.
-        results = []
+    # Open a file
+    with open(filename, 'r') as f:
+        # Read contents of file into variable
+        contents = csv.reader(f)
 
         # Loop through the list returned.
         for line in contents:
             # Loops through the keywords.
             for eachKeyword in listofKeywords:
-
                 # If the 'line' contains the keyword then it will print.
                 # Searches and returns results using a regular expression search.
-                x = re.findall(r'' + eachKeyword + '', line)
+                x = re.findall(r'' + eachKeyword + '', line[1])
                 for found in x:
-
-                    # Append results to result list.
-                    results.append(found)
-
-        # Check to see if results exists.
-        if len(results) == 0:
-            print("No Results")
-        # Sort List.
-        results = sorted(results)
-
-        return results
+                    args = line[1]
+                    host = line[2]
+                    name = line[3]
+                    path = line[4]
+                    pid = line[5]
+                    user = line[6]
+                    print("""
+        
+Arguments: {}
+Host: {}
+Name: {}
+Path: {}
+PID: {}
+User: {}
+{}
+""".format(args, host, name, path, pid, user, "*" * 60))
