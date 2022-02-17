@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Week05/homework/searchbooks.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week05/homework/attacks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/homework/attacks.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week05/homework/attacksearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/homework/attacksearch.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +171,7 @@
       <workItem from="1644526241177" duration="5301000" />
       <workItem from="1644602345281" duration="773000" />
       <workItem from="1644629856599" duration="1611000" />
-      <workItem from="1645119138353" duration="9220000" />
+      <workItem from="1645119138353" duration="13757000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -507,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645126711722</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Pycharm Commit">
+      <created>1645128750243</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1645128750243</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

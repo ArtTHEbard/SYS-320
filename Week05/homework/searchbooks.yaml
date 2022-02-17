@@ -1,0 +1,3 @@
+shell_attacks:
+  ref: Test
+  detect: ".*Out-MiniDump.*"

@@ -10,13 +10,11 @@ parser = argparse.ArgumentParser(
 )
 # Add Argument
 parser.add_argument("-d", "--directory", required=False, help="Directory that you want to traverse.")
-parser.add_argument("-s", "--searcher", required=False, help="Define a Yaml Book that contains search terms")
 
 # Parse the arguments
 args = parser.parse_args()
 
 rootdir = args.directory
-searchfile = args.searcher
 # Traverse Directory
 # Check in arg is a directory
 if not os.path.isdir(rootdir):
@@ -33,15 +31,17 @@ for root, subfolders, filenames in os.walk(rootdir):
         flist.append(filelist)
 
 with open('attacks.yaml', 'r') as yf:
-    keywords = yaml.safe_load(yf)
+    keywords = yaml.safe_load_all(yf)
 
     # Query the yaml file for term or direction and
     # retrieve the strings to search on.
 
-    for key in keywords:
-        terms = keywords[key]['detect']
-        listofKeywords = terms.split(",")
-        types = keywords[key]['ref']
-        print("Attack Description: " + types)
-for file in flist:
-    logCheck._logs(file, listofKeywords)
+    for keyVal in keywords:
+        for key, value in keyVal.items():
+            types = value['ref']
+            terms = value['detect']
+            listofKeywords = terms.split(",")
+            print("Attack Description: " + types)
+
+            for file in flist:
+                logCheck._logs(file, listofKeywords)
