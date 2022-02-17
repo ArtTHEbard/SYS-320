@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
+    <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="Pycharm Commit">
+      <change afterPath="$PROJECT_DIR$/Week05/homework/attacksearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/logCheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/searchbooks.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0000DCDSL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0000DPUEW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0000DPUNE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0000HNPEN.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0000KTXWS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0000TEBSC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0000TEBSE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0000ZIFSB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0001DPUNN.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0001FSIEW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0001FSIWW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0001FXGSE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0001IAANL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0001TFKWC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0001WQUNS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0001YICNT.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0002IAAEB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0002NDIES.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0002OIUNW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0002OIUSC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0002PKYWB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0002RVTSN.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0003FSINS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0003FSISW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0003FXGWL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0003KTXSL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0003NDINL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0003ZETSC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0004DCDEC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0004FXGWS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0004IBJSS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0004IXGWB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0004LCTSB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0004OZJEE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0004YICSL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005FSISC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005FXGSS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005HNPSB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005JOFSS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005KTXSE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005LCTEW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005LKOES.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005OIUWS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0005WQUNL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0006APQNS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0006APQSC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0006FOAET.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0006IAAES.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0006KTXSE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0006LKOWN.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0006PKYSW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0006WQUNW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007DPUWW.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007EDGEB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007EDGNS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007FJPWB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007FOAEB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007KTXNE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007PKYEB.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007TFKSC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0007TFKSL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0008APQNS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0008EDGSL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0008EPUNE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0008FOAWE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0008LKOWC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0008NDIWL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0008WQUES.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0009DPUEC.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0009FSIWE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0009KTXSL.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0009LCTEN.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0009NDIWE.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0009TEBSS.parquet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week05/homework/w32processes/0009ZETSN.parquet.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week04/homework/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +117,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week04/homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week05/homework" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week05\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\class" />
-      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week01\homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\homework" />
@@ -159,7 +236,9 @@
       <workItem from="1644521680882" duration="1021000" />
       <workItem from="1644522907808" duration="2539000" />
       <workItem from="1644526241177" duration="5301000" />
-      <workItem from="1644602345281" duration="737000" />
+      <workItem from="1644602345281" duration="773000" />
+      <workItem from="1644629856599" duration="1611000" />
+      <workItem from="1645119138353" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 Classwork">
       <created>1642799202409</created>
@@ -476,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644539359509</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Pycharm Commit">
+      <created>1644603110647</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1644603110647</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
