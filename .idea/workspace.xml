@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week06/homework/Week 6 HW.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week06/homework/fs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week06/homework/results.body" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week06/homework/timeliner-linux-amd64.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week06/homework/Week 6 HW.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/homework/Week 6 HW.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +172,7 @@
       <workItem from="1644629856599" duration="1611000" />
       <workItem from="1645119138353" duration="14372000" />
       <workItem from="1645635657760" duration="3229000" />
-      <workItem from="1645725714285" duration="5216000" />
-    </task>
-    <task id="LOCAL-00006" summary="Week 1 Classwork">
-      <created>1642804835232</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1642804835232</updated>
+      <workItem from="1645725714285" duration="6150000" />
     </task>
     <task id="LOCAL-00007" summary="Week 1 Classwork">
       <created>1642805274128</created>
@@ -520,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645638929739</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Pycharm Commit">
+      <created>1645730972288</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1645730972289</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
