@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week06/class/remote_files/auth.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week06/class/remote_files/hosts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week06/class/remote_files/passwd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week06/homework/Week 6 HW.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week06/homework/fs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week06/homework/results.body" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week06/homework/timeliner-linux-amd64.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,16 +52,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week05/homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week06/homework" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week06\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week05\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\homework" />
-      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\class" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\homework" />
@@ -172,14 +174,8 @@
       <workItem from="1644602345281" duration="773000" />
       <workItem from="1644629856599" duration="1611000" />
       <workItem from="1645119138353" duration="14372000" />
-      <workItem from="1645635657760" duration="3215000" />
-    </task>
-    <task id="LOCAL-00005" summary="Week 1 Classwork">
-      <created>1642804021054</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1642804021054</updated>
+      <workItem from="1645635657760" duration="3229000" />
+      <workItem from="1645725714285" duration="5216000" />
     </task>
     <task id="LOCAL-00006" summary="Week 1 Classwork">
       <created>1642804835232</created>
@@ -517,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645638917622</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Pycharm Commit">
+      <created>1645638929739</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1645638929739</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
