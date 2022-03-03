@@ -30,7 +30,7 @@ flist = []
 # Crawl through provided directory
 for root, subfolders, filenames in os.walk(rootdir):
     for f in filenames:
-        filelist = root + "/" + f
+        filelist = os.path.join(root, f)
         flist.append(filelist)
 
 

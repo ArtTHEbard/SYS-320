@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Week07/homework/Week 7 TH.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/kraken" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week06/homework/Week 6 HW.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/homework/Week 6 HW.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week06/homework/fs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/homework/fs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -49,18 +53,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week06/homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week07/homework" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week07\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week06\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week05\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\class" />
-      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week02\homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week07\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\homework" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week04\class" />
       <recent name="C:\Users\trini\PycharmProjects\SYS-320\Week03\homework" />
@@ -172,21 +177,8 @@
       <workItem from="1644629856599" duration="1611000" />
       <workItem from="1645119138353" duration="14372000" />
       <workItem from="1645635657760" duration="3229000" />
-      <workItem from="1645725714285" duration="6150000" />
-    </task>
-    <task id="LOCAL-00007" summary="Week 1 Classwork">
-      <created>1642805274128</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1642805274128</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Week 1 Classwork">
-      <created>1642805860681</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1642805860681</updated>
+      <workItem from="1645725714285" duration="6756000" />
+      <workItem from="1646325965585" duration="5846000" />
     </task>
     <task id="LOCAL-00009" summary="Week 1 Classwork">
       <created>1642811865036</created>
@@ -517,7 +509,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645730972289</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Pycharm Commit">
+      <created>1645732043870</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1645732043870</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Pycharm Commit">
+      <created>1645732196352</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1645732196352</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
