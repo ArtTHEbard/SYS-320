@@ -1,0 +1,30 @@
+p.dalton:x:1001:1001::/home/p.dalton:/bin/bash
+Feb 27 04:42:46 SYS-320 passwd[2500]: pam_unix(passwd:chauthtok): password changed for p.dalton
+Feb 27 04:44:14 SYS-320 sshd[2622]: Accepted password for p.dalton from 10.223.0.132 port 39326 ssh2
+Feb 27 04:44:14 SYS-320 sshd[2622]: pam_unix(sshd:session): session opened for user p.dalton by (uid=0)
+Feb 27 04:44:14 SYS-320 systemd-logind[725]: New session 17 of user p.dalton.
+Feb 27 04:44:14 SYS-320 systemd: pam_unix(systemd-user:session): session opened for user p.dalton by (uid=0)
+Feb 27 04:44:24 SYS-320 sshd[2715]: Disconnected from user p.dalton 10.223.0.132 port 39326
+Feb 27 04:44:24 SYS-320 sshd[2622]: pam_unix(sshd:session): session closed for user p.dalton
+Feb 27 04:50:33 SYS-320 sshd[2899]: Accepted password for p.dalton from 10.223.0.132 port 39330 ssh2
+Feb 27 04:50:33 SYS-320 sshd[2899]: pam_unix(sshd:session): session opened for user p.dalton by (uid=0)
+Feb 27 04:50:33 SYS-320 systemd-logind[725]: New session 19 of user p.dalton.
+Feb 27 04:50:33 SYS-320 systemd: pam_unix(systemd-user:session): session opened for user p.dalton by (uid=0)
+Feb 27 04:50:34 SYS-320 sshd[2994]: Disconnected from user p.dalton 10.223.0.132 port 39330
+Feb 27 04:50:34 SYS-320 sshd[2899]: pam_unix(sshd:session): session closed for user p.dalton
+Feb 27 04:50:51 SYS-320 sshd[3013]: Accepted password for p.dalton from 10.223.0.132 port 39332 ssh2
+Feb 27 04:50:51 SYS-320 sshd[3013]: pam_unix(sshd:session): session opened for user p.dalton by (uid=0)
+Feb 27 04:50:51 SYS-320 systemd-logind[725]: New session 21 of user p.dalton.
+Feb 27 04:50:51 SYS-320 systemd: pam_unix(systemd-user:session): session opened for user p.dalton by (uid=0)
+Feb 27 05:27:37 SYS-320 sshd[3104]: Disconnected from user p.dalton 10.223.0.132 port 39332
+Feb 27 05:27:37 SYS-320 sshd[3013]: pam_unix(sshd:session): session closed for user p.dalton
+Feb 27 05:52:42 SYS-320 sshd[15114]: Accepted password for p.dalton from 192.168.6.72 port 37164 ssh2
+Feb 27 05:52:42 SYS-320 sshd[15114]: pam_unix(sshd:session): session opened for user p.dalton by (uid=0)
+Feb 27 05:52:42 SYS-320 systemd-logind[725]: New session 29 of user p.dalton.
+Feb 27 06:17:05 SYS-320 sshd[15223]: Disconnected from user p.dalton 192.168.6.72 port 37164
+Feb 27 06:17:05 SYS-320 sshd[15114]: pam_unix(sshd:session): session closed for user p.dalton
+Mar  3 18:21:31 sys320 sudo: samuel.johnson01 : TTY=pts/3 ; PWD=/home/samuel.johnson01 ; USER=root ; COMMAND=/usr/bin/dir /home/p.dalton/
+Mar  3 19:37:47 sys320 sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chmod +x 755 /home/p.dalton/
+Mar  3 19:37:51 sys320 sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chmod +x /home/p.dalton/
+Mar  3 19:38:16 sys320 sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chmod 755 /home/p.dalton/
+Mar  3 19:38:33 sys320 sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chmod -R 755 /home/p.dalton/

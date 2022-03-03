@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c62480-a330-4fd0-a5c4-ca447bf29de1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week07/homework/Week 7 TH.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week07/homework/kraken" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week07/homework/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/Artifacts/3138/.d.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/Artifacts/3138/d.pid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/Artifacts/3138/ld-2.31.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/Artifacts/3138/libc-2.31.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/Artifacts/3138/libpthread-2.31.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/Artifacts/3138/ls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week07/homework/Artifacts/p.dalton/results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week06/homework/Week 6 HW.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/homework/Week 6 HW.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week06/homework/fs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/homework/fs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week07/homework/Week 7 TH.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/homework/Week 7 TH.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week07/homework/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +182,7 @@
       <workItem from="1645119138353" duration="14372000" />
       <workItem from="1645635657760" duration="3229000" />
       <workItem from="1645725714285" duration="6756000" />
-      <workItem from="1646325965585" duration="5846000" />
-    </task>
-    <task id="LOCAL-00009" summary="Week 1 Classwork">
-      <created>1642811865036</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1642811865036</updated>
+      <workItem from="1646325965585" duration="14485000" />
     </task>
     <task id="LOCAL-00010" summary="Week 1 Classwork">
       <created>1642811986220</created>
@@ -523,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645732196352</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Pycharm Commit">
+      <created>1646332913779</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1646332913780</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
