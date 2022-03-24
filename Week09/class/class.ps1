@@ -9,13 +9,13 @@
 # Output file variable
 
 # Save the Output to a CSV fiel
-#Get-Process | Select-Object ProcessName, Id, Path | Export-Csv  -Path 'D:\Sec320\SYS-320\Week09\class\processes.csv'
+# Get-Process | Select-Object ProcessName, Id, Path | Export-Csv  -Path 'D:\Sec320\SYS-320\Week09\class\processes.csv'
 
 # $outputname = 'D:\Sec320\SYS-320\Week09\class\services.csv'
 
 # System Services and properties
 # Get-Service | get-member
-# Get-Service | Select-Object Status, Name, DisplayName, BinaryPathName | Export-Csv -Path $outputname
+Get-Service | Select-Object Status, Name, DisplayName, BinaryPathName | Export-Csv -Path $outputname
 
 # Get a list of running services
 $outputname = 'D:\Sec320\SYS-320\Week09\class\runningservices.csv'
