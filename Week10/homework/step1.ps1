@@ -23,7 +23,7 @@ if (Test-Path -Path $testpath) {
 
 ### Task 2
 # Create a README message with a ransom message. 
-$msg = 'If you want your files back, contact me at getpwnd@hacker.net. I look for ward to doing buisness with you, boss.'
+$msg = 'If you want your files back, contact me at getpwnd@hacker.net. I look forward to doing buisness with you, boss.'
 $file =  'D:\Sec320\SYS-320\Week10\homework\README;).READ'
 $msg | Out-File -FilePath $file
 
