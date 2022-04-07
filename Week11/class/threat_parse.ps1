@@ -39,5 +39,6 @@ Out-File -FilePath "Week11\class\ips-bad.tmp"
 # Get the IP addresses discovered, loop through and replace the beginnign of the line with the IPTables systax
 # After the IP address, add the remaining IPTables systax and save the results to a file. 
 # iptables -A INPUT -s 108.191.2.72 -j DROP
-(Get-Content -Path ".\Week11\class\ips-bad.tmp") | Foreach-object { $_ -replace "^","iptables -A INPUT -s " -replace "$", "-j DROP" } |
+(Get-Content -Path ".\Week11\class\ips-bad.tmp") | 
+Foreach-object { $_ -replace "^","iptables -A INPUT -s " -replace "$", "-j DROP" } |
 Out-File -FilePath "Week11\class\iptables.bash"
