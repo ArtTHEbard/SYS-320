@@ -13,7 +13,7 @@ foreach ($u in $drop_urls){
     # The last em=lemetn in the array plucked off is the filename
     $file_name = $temp[-1]
     # Check for file
-    $file_path = 'D:\Sec320\SYS-320\Week11\class\' + $file_name
+    $file_path = 'D:\Sec320\SYS-320\Week11\homework\' + $file_name
     if (Test-Path -Path $file_path){
         continue 
     } else {
@@ -25,7 +25,7 @@ foreach ($u in $drop_urls){
 }
 
 # Array containting the filename
-$input_paths = @('Week11\class\compromised-ips.txt', 'Week11\class\emerging-botcc.rules')
+$input_paths = @('Week11\homework\compromised-ips.txt', 'Week11\homework\emerging-botcc.rules')
 
 #Extract the IP addresses
 $regex_drop = '\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b'
