@@ -36,9 +36,7 @@ if (Test-Path -Path $testpath) {
 }
 
 $outputbat = @'
-del .\step2test.ps1
+del .\step2.ps1
 '@
 
 $outputbat | Out-File -FilePath .\update.bat
-
-
